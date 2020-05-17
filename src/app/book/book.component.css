@@ -1,0 +1,13 @@
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+
+.dibas-auto-center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
