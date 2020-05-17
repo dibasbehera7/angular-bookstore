@@ -1,4 +1,45 @@
-# AppBookapi
+# Angular BookStore
+
+![image](https://user-images.githubusercontent.com/24310550/82156535-20724780-9899-11ea-8e71-a51a48c79d38.png)
+
+Build Angular BookStore Application Interface
+
+## Steps to Setup
+
+**1. Clone the application**
+
+```bash
+git clone https://github.com/dibasbehera7/angular-bookstore.git
+```
+
+**2. Intall Angular CLI globally**
+
+```bash
+npm install -g @angular/cli
+```
+
+**3. Intall dependencies/npm modules**
+
+Go to the project directory and execute the following command from the terminal
+
+```bash
+intall npm
+```
+
+**4. Change the REST API URL's**
+
+In the book.service.ts change the REST API URL's, i have created backend project using Spring REST, you can find it here <https://github.com/dibasbehera7/angular-bookstore/spring-mvc-book-api>
+
+**5. Build and run the app**
+
+```bash
+ng serve --open
+```
+
+The app will open in the default browser with <http://localhost:4200/>.
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.5.
 
